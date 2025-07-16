@@ -21,13 +21,13 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-        AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+        AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 
-        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
@@ -91,7 +91,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ZENTRO TV",
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "true",
+              AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
