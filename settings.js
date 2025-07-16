@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "lucky~rVUUWR6C#4KVaq5Mc9MZYPL_oVB9OiIjU4uBTW90c3Qy-gbkaY2E",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -24,10 +24,10 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
@@ -68,10 +68,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "2347047982494",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "",
+OWNER_NAME: process.env.OWNER_NAME || "ZENTRO TV",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
@@ -91,7 +91,7 @@ OWNER_NAME: process.env.OWNER_NAME || "",
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "false",
+              AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
